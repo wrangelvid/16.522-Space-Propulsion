@@ -8,14 +8,18 @@ k = 1.38064852e-23  # Boltzmann constant [m2 kg s-2 K-1]
 q = 1.60217662e-19  # elementary charge [coulombs]
 u = 1.66053906e-27  # atomic mass unit, [kg]
 me = 9.1093836e-31  # electron mass [kg]
+R = 8.3145  # universal gas constant [J mol-1 K-1]
+NA = 6.0221409e23  # Avogadro's number [mol-1]
 mi = 39.948  # atomic mass: argon [amu]
-# mi = 15.999 # atomic mass: oxygen [amu]
+# mi = 15.999  # atomic mass: oxygen [amu]
 
 
 # Assumptions
+P = 133.322*1e-5  # Pressure in vacuum chamber [Pa]
+T = 300  # ambient temperature [K]
 Te = 3/k  # electron temperature [K]
-phi = 200 # [V]
-
+phi = 200  # [V]
+B = 1  # Magnetic field strength [Tesla]
 
 
 # Plasma (lectures 9-10)
